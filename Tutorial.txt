@@ -1,0 +1,148 @@
+
+Tutorial:
+
+Swift Basics (Beginner Level)
+
+Course link
+https://www.youtube.com/watch?v=PwXgg9adkdM&list=PLwvDm4VfkdpiLvzZFJI6rVIBtdolrJBVB&index=1&ab_channel=SwiftfulThinking
+
+Video 3 :
+https://www.youtube.com/watch?v=JeoaCW9fO0w&list=PLwvDm4VfkdpiLvzZFJI6rVIBtdolrJBVB&index=3&ab_channel=SwiftfulThinking
+
+Switf commands:
+
+Duplicate lines = Command + D
+See the item information = Hold option button
+Ways to create multiple cursors:
+
+⇧ Shift + ⌃ Control + Left Mouse Click: Will create a new cursor on every click
+⇧ Shift + ⌃ Control + ↑: Will create a new cursor above
+⇧ Shift + ⌃ Control + ↓: Will create a new cursor bellow
+⌥ Option + drag: Will create a new cursor on every line you drag
+
+switch info:
+--Video 2: Print, Comments, Naming convrersionts
+
+import Foundation
+
+var greeting = "Hello, playground"
+
+
+print(greeting)
+print(greeting)
+print(greeting)
+print(greeting)
+print(greeting)
+print(greeting)
+
+// This is a single_single comment
+
+// multi line comment
+/*
+ This is a multi-line comment
+ that goes to
+ multiple lnes!
+ */
+
+// Naming Conversionts
+
+// Camel Case - CORRECT!
+// The first word is lowercased and the the first character in every following word is uppercase.
+
+let firstGreeting = "Hello, world!"
+let thisIsMyFirstGreeting = "Hello, world!"
+
+let thisismysecondgreeting = "Hello, world!"
+
+// Snake Case
+let this_is_what_snake_case_looks_like = "Hello, world!"
+
+// Pascal Case
+let ThisIsWhatPascalCaseLookLike = "Hello, world!"
+
+// Camel Case
+let thisIsWhatCameCaseLooksLike = "Hello, world!"
+
+--Video 3: How to use basic Types in Swift (Bool, String, Int) 
+
+import Foundation
+
+// var allows you to change their value.
+
+// let gets equal to one thing and never changes.
+
+
+
+
+// String is "regular text"
+let myFirstItem: String = "Hello, world!"
+
+// Reference previously created objects
+let myTitle = myFirstItem
+
+//Boolean (aka bool) is true or false:
+let mySecondItem: Bool = true
+let myThirditem: Bool = false
+
+
+// Do ot do!
+// let myFourthIem: String = "true"
+
+// Swift is a type-safe language
+// let myFifthItem: Bool = "Hello, world!"
+let mySixthItem: String = "Hello, world!"
+let mySeventhItem =  "Hello, world!"
+
+// Date
+
+let myFirstDate: Date = Date()
+
+// Number - Can be Int, Double, CGFloat & more
+
+// Int is a whole Integer
+let myFirstNumber: Int = 1
+
+// Use Double for math
+let mySecondnumber: Double = 1.0
+
+// Use CG
+let myThirdnumber: CGFloat = 1.0
+
+--Video 4: How to use Variables and Constants
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
